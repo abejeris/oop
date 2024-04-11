@@ -20,6 +20,10 @@ class Color {
 		this.g = g;
 		this.b = b;
 	}
+	rgb() {
+		const { r, g, b } = this;
+		return `rgb(${r}, ${g}, ${b})`;
+	}
 }
 
 new Color(255, 100, 30);
